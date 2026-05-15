@@ -1,0 +1,17 @@
+{
+  "name": "gp-spreadsheet-splitter",
+  "version": "1.0.0",
+  "description": "Split source workbooks into per-license requirement spreadsheets with style preservation",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "split": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "exceljs": "^4.4.0",
+    "xlsx": "^0.18.5"
+  }
+}
